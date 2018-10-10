@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url(belku.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100vh;
+}
+
+.container{
+	width: 1140px;
+	padding: 40vh;
+
+	
+
+
+}
+
+.container h1{
+	font-size: 75px;
+	color: black;
+
+}
+
+
+.container p{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+
+.container input{
+	
+	width: 310px;
+	color: black;
+	outline: 0;
+	font-size: 20px;
+	background-color: white;
+
+}
