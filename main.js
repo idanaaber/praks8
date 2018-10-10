@@ -7,11 +7,11 @@ const getFact = () => {
 	axios.get('http://numbersapi.com/'+number)
 		.then(response => {
 			console.log(response.data);
+			factOutput.innerText = response.data;
 		 })
 		.catch(error => {
 			console.log(error);
 		 })
-	
 	}
 }
 
